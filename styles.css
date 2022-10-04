@@ -11,7 +11,13 @@ body{
         font-family: 'Saira Condensed', sans-serif; 
         background-color: #abd1c6;
         color:#0f3433;
+        
+        margin: 0 ;
+}
 
+main{
+max-width: 768px;
+margin: 0 auto;
 }
 
 a:link {
@@ -70,6 +76,7 @@ a:link, a:visited {
 .round{
 border-radius: 50%;
 }
+
 
 #navbar {
 background-color: #de71f4;
