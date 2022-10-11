@@ -9,8 +9,8 @@ h1,h2{
 body{
 
         font-family: 'Saira Condensed', sans-serif; 
-        background-color: #abd1c6;
-        color:#0f3433;
+        background-color: #004643;
+        color:#fffffe;
         
         margin: 0 ;
 }
@@ -92,5 +92,35 @@ background-color: #de71f4;
 }
 #navbar > a:hover {
 
-  background-color: #340fc8;
+  background-color: #c4c1cd;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(165, 184, 169);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #0f3433;
+  color: rgb(191, 135, 135);
+  padding: px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px 3px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f9bc60;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #c03ac0;
+  padding: 20px;
 }
