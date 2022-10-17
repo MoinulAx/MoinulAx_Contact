@@ -28,7 +28,11 @@
       <h2>Contact With Me</h2>
       
       <div>
-        <form action="/action_page.php">
+         <form
+         action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+          method="post"
+          >
+
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
       
@@ -43,6 +47,8 @@
     </select>
   
     <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+    <input name="send-to"value="mkhan@brooklynsteamcenter.org"hidden>
   </form>
 </div>
       <hr></hr>

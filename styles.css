@@ -86,7 +86,7 @@ background-color: #de71f4;
 #navbar > a {
 
   color:azure;
-  padding: 40px;
+  padding: 15px;
   display: inline-block;
   
 }
@@ -108,19 +108,28 @@ input[type=submit] {
   width: 100%;
   background-color: #0f3433;
   color: rgb(191, 135, 135);
-  padding: px 18px;
-  margin: 8px 0;
+  padding:  18px ;
+  margin: 20px 3px;
   border: none;
-  border-radius: 8px 3px;
+  border-radius: 8px 4px;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
   background-color: #f9bc60;
 }
-
+/*
 div {
   border-radius: 5px;
   background-color: #c03ac0;
   padding: 20px;
+}
+*/
+
+@media screen and (max-width: 480px) {
+  body { 
+    background-color: aquamarine;
+    
+  }
+  
 }
