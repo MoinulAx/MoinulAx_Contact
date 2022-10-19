@@ -23,31 +23,35 @@
       <h>Contact Information</h>  
       
       </style>
+    
       <body>
       
+  
       <h2>Contact With Me</h2>
       
-      <div>
-         <form
-         action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
-          method="post"
-          >
+      <form
+   action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+   method="post"
+  >
+    <label>Name:</label>
+    <input type="text" name="name">
+    <br>
+    <label>Email:</label>
+    <input type="text" name="Email">
+    <br>
+    <label>Number:</label>
+    <input type="text" name="Number">
+    <br>
+    <label>Response:</label>
+    <input id=Response type="text" name="Response">
+    <br>
+   
+    <br>
 
-          <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <label for="country">boopboop</label>
-      <select id="meep" name="moop">
-      <option value="beep">beep</option>
-      <option value="boop">boop</option>
-      <option value="bmop">bmop</option>
-    </select>
-  
-    <input type="submit" value="Submit">
-    <input type="reset" value="reset">
+    <input type="submit">
+    <input type="reset">
+  <hr></hr>
+    
     <input name="send-to"value="mkhan@brooklynsteamcenter.org"hidden>
   </form>
 </div>

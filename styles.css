@@ -1,5 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 h1,h2{
 
@@ -8,10 +7,10 @@ h1,h2{
 
 body{
 
-        font-family: 'Saira Condensed', sans-serif; 
-        background-color: #004643;
-        color:#fffffe;
-        
+        font-family: 'Press Start 2P', cursive;
+        font-family: 'Saira Condensed', sans-serif;
+        color:#b8c1ec;
+        background-color: #232946;
         margin: 0 ;
 }
 
@@ -67,57 +66,66 @@ a:link, a:visited {
 
 #header {
   text-align: center; 
-  color:forestgreen;
+  color:#fffffe;
 
 
 
     }
 
 .round{
-border-radius: 50%;
+border-radius: 8px;
 }
 
 
 #navbar {
-background-color: #de71f4;
-
+background-color: #fffffe;
+position:sticky;
+  top:0;
 }
 
 #navbar > a {
 
-  color:azure;
+  color:#607af9;
   padding: 15px;
   display: inline-block;
+  
   
 }
 #navbar > a:hover {
 
   background-color: #c4c1cd;
 }
+/*
 input[type=text], select {
   width: 100%;
-  padding: 12px 20px;
+  padding: 8px 8px;
   margin: 8px 0;
   display: inline-block;
   border: 1px solid rgb(165, 184, 169);
   border-radius: 4px;
   box-sizing: border-box;
+  border:4px;
+  border-bottom: 16px;
 }
 
 input[type=submit] {
   width: 100%;
-  background-color: #0f3433;
+  background-color: #97a5e7;
   color: rgb(191, 135, 135);
   padding:  18px ;
   margin: 20px 3px;
-  border: none;
-  border-radius: 8px 4px;
+  border: #607af9;
+  border-color:#60daf9;
+  border-radius: 20px 4px;
+  border-width: 4px 8px ;
+  border-style: solid;
   cursor: pointer;
+
 }
 input[type=reset] {
   width: 100%;
-  background-color: #b5291c;
-  color: rgb(238, 229, 229);
+  background-color: #ae9d9c;
+  color: rgb(107, 67, 67);
   padding:  18px ;
   margin: 20px 3px;
   border: none;
@@ -147,4 +155,50 @@ div {
   }
 
   
+}
+input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-color: #020826;
+  background-color:#eaddcf;
+  border-radius: 8px;
+  
+
+
+}
+
+#Response {
+padding: 100px 50px;
+
+}
+
+input[type=text]:hover {
+background-color: whitesmoke;
+border: 3px solid #555;
+}
+
+input[type="Submit"] {
+
+font-family:'Zilla Slab', monospace;
+color: #020826;
+border-radius: 8px;
+background-color:#eaddcf;
+border-color: #020826;
+
+}
+
+input[type="Reset"] {
+font-family:'Zilla Slab', monospace;
+color: #020826;
+border-radius: 8px;
+background-color:#eaddcf;
+border-color: #020826;
+}
+
+hr{
+
+border: #607af9;
+
 }
