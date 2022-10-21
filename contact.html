@@ -16,18 +16,19 @@
       <div id="navbar">
         <a href="index.html">Home</a>
         <a href="portfolio.html">Portfolio</a>
-        <a href="https://www.linkedin.com/in/moinul-khan-647535238/">Linkedin</a>
+        <a href="https://www.linkedin.com/in/moinul-khan-647535238/" target="_blank">Linkedin</a>
         <a href="contact.html">Contact</a>
 
+
      </div>
-      <h>Contact Information</h>  
+      
       
       </style>
     
       <body>
       
   
-      <h2>Contact With Me</h2>
+      <h2>Contact Me</h2>
       
       <form
    action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
@@ -43,22 +44,38 @@
     <input type="text" name="Number">
     <br>
     <label>Response:</label>
-    <input id=Response type="text" name="Response">
+    
+    <textarea name="Response" id="Response" cols="0" rows="10"></textarea>
     <br>
    
     <br>
 
-    <input type="submit">
-    <input type="reset">
+    
   <hr></hr>
     
     <input name="send-to"value="mkhan@brooklynsteamcenter.org"hidden>
-  </form>
-</div>
-      <hr></hr>
-     
+  
+  <h2>Best Method of Contact</h2>
+ 
 
-      </table>
+    <p>
+      <input type="checkbox" id="test1" />
+      <label for="test1">Phone#</label>
+    </p>
+    <p>
+      <input type="checkbox" id="test2" checked="checked" />
+      <label for="test2">Email</label>
+      
+      
+    </p>
+    <p>
+
+      <input type="submit">
+      <input type="reset">
+    </p>
+    
+  </form>
+
         
     </body>
 </html>
