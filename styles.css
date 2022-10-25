@@ -312,9 +312,7 @@ border: #607af9;
     width: 100%;
     
   
-  main{
-    margin-top: 128px;
-  }
+  
   
   @supports (height: 100vh) {	
     body{	
