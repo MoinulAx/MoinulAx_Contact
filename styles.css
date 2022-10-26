@@ -1,18 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lora&family=Press+Start+2P&family=Silkscreen&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Josefin+Sans&family=Lora&family=Press+Start+2P&family=Silkscreen&display=swap');
 h1,h2{
 
-  font-family: 'Lora', serif;
+  font-family: 'Fuzzy Bubbles', cursive;
 }
 
 body{
 
         
-        font-family: 'Saira Condensed', sans-serif;
-        color:#b8c1ec;
+  font-family: 'Fuzzy Bubbles', cursive;
+        color:#b8c1ec;  
         background-color: #232946;
         margin: 0 ;
 }
+
+
 
 main{
 max-width: 768px;
@@ -36,7 +37,7 @@ a:link {
         text-decoration: none;
 
       }
-*/
+
 a{
         color:rgba(12, 17, 15, 0.37);
 }
@@ -78,14 +79,14 @@ border-radius: 8px;
 
 
 #navbar {
-background-color: #fffffe;
+background-color:#b8c1ec ;
 position:sticky;
   top:0;
 }
 
 #navbar > a {
 
-  color:#607af9;
+  color:#232946;
   padding: 15px;
   display: inline-block;
   
@@ -150,8 +151,10 @@ div {
 
 @media screen and (max-width: 480px) {
   body { 
-    background-color: aquamarine;
     
+    background-color: #232946;
+    margin: 0 auto;
+ 
   }
 
   
@@ -162,9 +165,10 @@ input[type="text"] {
   margin: 8px 0;
   box-sizing: border-box;
   border-color: #020826;
-  background-color:#eebbc3;
+  background-color:#b8c1ec;
   border-radius: 8px;
-  
+  font-family: 'Fuzzy Bubbles', cursive;
+
 
 
 }
@@ -175,7 +179,7 @@ input[type="text"] {
   margin: 8px 0;
   box-sizing: border-box;
   border-color: #020826;
-  background-color:#eebbc3;
+  background-color:#b8c1ec;
   border-radius: 8px;
 
 }
@@ -187,11 +191,12 @@ border: 3px solid #555;
 
 input[type="Submit"] {
 
-  font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
+       
 font-size: 15px;
 color: #020826;
 border-radius: 8px;
-background-color:#eebbc3;
+background-color:#b8c1ec;
 border-color: #020826;
 cursor: pointer;
 padding:15px 15px;
@@ -203,11 +208,11 @@ input[type=Submit]:hover {
   }
 
 input[type="Reset"] {
-font-family: 'Saira Condensed', sans-serif;
+  font-family: 'Fuzzy Bubbles', cursive;
 font-size: 15px;
 color: #020826;
 border-radius: 8px;
-background-color:#eebbc3;
+background-color:#b8c1ec;
 border-color: #020826;
 cursor: pointer;
 padding:15px 15px;
@@ -248,7 +253,7 @@ border: #607af9;
 		width: 1.4em;
 		height: 1.4em;
 		border: 1px solid #aaa;
-		background: #eebbc3;
+		background: #b8c1ec;
 		border-radius: .2em;
 		box-shadow: inset 0 1px 3px rgba(0,0,0, .1), 0 0 0 rgba(203, 34, 237, .2);
 		-webkit-transition: all .275s;
@@ -263,7 +268,7 @@ border: #607af9;
 		top: .525em;
 		left: .18em;
 		font-size: 1.375em;
-		color: #b8c1ec;
+		color: #232946;
 		line-height: 0;
 		-webkit-transition: all .2s;
 				transition: all .2s;
@@ -310,28 +315,19 @@ border: #607af9;
     top:0;
     height: 125px;
     width: 100%;
+  }
+
+  li{
+    margin: 10px 0;
+  }
+  
     
   
   
   
-  @supports (height: 100vh) {	
-    body{	
-      background: linear-gradient(to right top, #0089f2 50%, #DDD 50%);
-      background-size: 100% calc(100% - 100vh + 129px);
-      background-repeat: no-repeat;
-    }
+ 
   
-    body:before{
-      content:'';
-      position: fixed;
-      top: 128px;
-      bottom: 0;
-      width: 100%;
-      z-index: -1;
-      
-    }
-  }
+    
 
 
-/*
  
